@@ -302,7 +302,18 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.video-assignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 
+iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+}
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
